@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.posts {
+  padding: 50px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background:#ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 50px;
+}
+
+
+.postsLeft, .postsRight,.postsCentre{
+flex: 1;
+color: rgb(190, 142, 100);
+}
+
+
+.postsLeft:hover, .postsRight:hover,.postsCentre:hover{
+  opacity: 50%;
+}
+
+/* .postsCentre{
+flex: 1;
+color: rgb(234, 176, 126);
+} */
+
+
+.postsImg{
+    height: 300px;
+    border-radius: 25px;
+  }
+

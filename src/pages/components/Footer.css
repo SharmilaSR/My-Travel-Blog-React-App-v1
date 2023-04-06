@@ -1,0 +1,25 @@
+.footer {
+    padding: 30px;
+    height: 150px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background:#eee7e1;
+    display: flex;
+    align-items: center;
+  }
+
+.footerLeft, .footerRight{
+  flex: 2;
+}
+
+.footCentre{
+  flex: 6;
+}
+
+.h1{
+  font-size: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+
+}
